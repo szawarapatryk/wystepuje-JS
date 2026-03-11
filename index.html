@@ -1,17 +1,14 @@
 <html lang="pl">
     <head>
-        <meta charset="utf-8">
-        <style>
-            body {text-align: center;}
-        </style>
+        <meta charset="UTF-8">
     </head>
     <body>
         <p id="wynik"></p>
         <script>
-            const marki = ["bmw","opel","mercedes"];
-            marki.includes("bmw");
-            if (tablica.includes = true) {console.log('Wyraz "bleble" znajduje się.');}
-            else {console.log("O nie, jesteśmy straceni, nie ma go tu.");}
-        </script>
+            let tablica = ["ala", "kot", "bleble", "pies", "dom"];
+            let szukany = "bleble";
+            if (tablica.includes(szukany)) {document.getElementById("wynik").innerText = 'Wyraz "bleble" znajduje się.';}
+            else {document.getElementById("wynik").innerText = 'O nie, jesteśmy straceni, nie ma go tu.';}
+    </script>
     </body>
 </html>
